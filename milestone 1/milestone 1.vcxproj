@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AnimationFrame.h" />
+    <ClInclude Include="Creature1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimationFrame.cpp" />
+    <ClCompile Include="Creature1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
