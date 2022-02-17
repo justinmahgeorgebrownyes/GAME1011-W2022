@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AnimationFrame.cpp">
+    <ClCompile Include="hellocreatrue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Creature1.cpp">
+    <ClCompile Include="AnimationFramee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Creaturee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnimationFrame.h">
+    <ClInclude Include="AnimationFramee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Creature1.h">
+    <ClInclude Include="Creaturee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

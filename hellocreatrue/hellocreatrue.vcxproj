@@ -18,19 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AnimationFrame.cpp" />
-    <ClCompile Include="Creature1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AnimationFrame.h" />
-    <ClInclude Include="Creature1.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c9275553-e59f-4815-bf50-93a1cc02d982}</ProjectGuid>
-    <RootNamespace>milestone1</RootNamespace>
+    <ProjectGuid>{950676a3-2e59-4bbc-946d-1089ded1603d}</ProjectGuid>
+    <RootNamespace>hellocreatrue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +138,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationFramee.cpp" />
+    <ClCompile Include="Creaturee.cpp" />
+    <ClCompile Include="hellocreatrue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationFramee.h" />
+    <ClInclude Include="Creaturee.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,6 +1,6 @@
-#include "AnimationFrame.h"
+#include "AnimationFramee.h"
 
-AnimationFrame::AnimationFrame
+AnimationFramee::AnimationFramee
 (string line1, string line2, string line3) {
 
 	this->line1 = line1;

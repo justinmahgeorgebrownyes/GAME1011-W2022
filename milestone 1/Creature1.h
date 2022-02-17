@@ -1,8 +1,15 @@
 #pragma once
+#include "AnimationFrame.h"
+
+using namespace std;
+
 class Creature1
 {
-	string head = "";
+	Creature1();
 
+	AnimationFrame creatures[];
+
+	
 
 };
 
