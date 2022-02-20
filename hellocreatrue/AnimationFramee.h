@@ -7,22 +7,22 @@ using namespace std;
 class AnimationFramee
 {
 private:
-	vector<string> lines;
+	vector<string> m_lines;
 
 
 
 public:
 	void setLines(vector<string> lines) {
-		this->lines = lines;
+		this->m_lines = lines;
 	}
 	vector<string> getLines() {
-		return lines;
+		return m_lines;
 	}
 	string getLine(int i) {
-		return lines.at(i);
+		return m_lines.at(i);
 	}
 	int size() {
-		return lines.size();
+		return m_lines.size();
 	}
 
 	AnimationFramee(){}

@@ -4,6 +4,6 @@
 AnimationFramee::AnimationFramee
 (vector<string> lines) {
 
-	this->lines = lines;
+	this->m_lines = lines;
 
 }

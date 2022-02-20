@@ -19,23 +19,22 @@ int main()
 
     for (int i = 0; i < 1; i++)
     {
+
+        hi1.Animate();
+        hi2.Animate();
+        hi3.Animate();
+        hi4.Animate();
+        hi5.Animate();
         hi6.Animate();
 
     }
-
-    
-
-
-    
-    
-
-
-    std::cout << "hello world!\n";
     
 
 
 
 }
+
+rungam
 
 // run program: ctrl + f5 or debug > start without debugging menu
 // debug program: f5 or debug > start debugging menu
