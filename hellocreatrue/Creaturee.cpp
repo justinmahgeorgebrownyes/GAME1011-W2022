@@ -18,6 +18,9 @@ Creaturee::Creaturee(string texts) {
     string space;
     int n = 0;
 
+    int lineCounter = 1;
+
+
 
     cout << "test";
     ifstream myfile(texts);
@@ -36,15 +39,28 @@ Creaturee::Creaturee(string texts) {
             if (line.empty())
             {
                 emptyLine++;
+                
             }
-
+            lineCounter++;
                 cout << line << '\n';
         }
 
         for (int i = 0; i < emptyLine; i++)
         {
-            AnimationFramee frame1(vector1[0 + i * 4], vector1[1 + i * 4], vector1[2 + i * 4]);
+            int creatureSizes = (lineCounter - emptyLine)  / emptyLine;
+
+            vector<string> vector2 = {};
+
+            for (int j = 0; j < creatureSizes; j++)
+            {
+                vector2.push_back(vector1[j + i * (creatureSizes + 1)]);
+
+            }
+
+            AnimationFramee frame1(vector2);
             creatures.push_back(frame1);
+
+            
         }
 
     
@@ -71,12 +87,9 @@ void Creaturee::Animate() {
 
 
 
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < creatures[numFrame].size(); i++)
         {
-            cout << creatures[numFrame].getLine1() << endl;
-            cout << creatures[numFrame].getLine2() << endl;
-            cout << creatures[numFrame].getLine3() << endl;
-
+            cout << creatures[numFrame].getLine(i) << endl;
             
 
         }

@@ -1,0 +1,47 @@
+ w  w  w w
+w w w w ww
+//////////
+//////////
+ffffffffff
+ffffffffff
+ffffffffff
+ffffffffff
+ffffffffff
+ffffffffff
+//////////
+
+ w  w  w w   w
+w w w w ww w w w 
+//////////?
+//////////?
+ffffffffff?
+ffffffffff?
+ffffffffff?
+ffffffffff?
+ffffffffff?
+ffffffffff?
+//////////?
+
+ w  w  w w   w  w
+w w w w ww   w w w   w
+//////////?a
+//////////?a
+ffffffffff?a
+ffffffffff?a
+ffffffffff?a
+ffffffffff?a
+ffffffffff?a
+ffffffffff?a
+//////////?a
+
+ w  w  w w   w  w    w
+w w w w ww   w w w   w w w w
+//////////?aK
+//////////?aK
+ffffffffff?aK
+ffffffffff?aK
+ffffffffff?aK
+ffffffffff?aK
+ffffffffff?aK
+ffffffffff?aK
+//////////?aK

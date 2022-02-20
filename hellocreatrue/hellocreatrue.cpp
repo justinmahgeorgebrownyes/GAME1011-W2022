@@ -7,8 +7,26 @@ using namespace std;
 
 int main()
 {
-    Creaturee hi("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez1.txt");
-    hi.Animate();
+
+
+    Creaturee hi1("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez1.txt");
+    Creaturee hi2("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez2.txt");
+    Creaturee hi3("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez3.txt");
+    Creaturee hi4("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez4.txt");
+    Creaturee hi5("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez5.txt");
+    Creaturee hi6("c:\\users\\newjb\\source\\repos\\game1011-w2022\\hellocreatrue\\creaturez6.txt");
+
+
+    for (int i = 0; i < 1; i++)
+    {
+        hi6.Animate();
+
+    }
+
+    
+
+
+    
     
 
 
