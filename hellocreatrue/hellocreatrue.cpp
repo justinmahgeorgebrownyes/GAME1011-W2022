@@ -34,7 +34,6 @@ int main()
 
 }
 
-rungam
 
 // run program: ctrl + f5 or debug > start without debugging menu
 // debug program: f5 or debug > start debugging menu

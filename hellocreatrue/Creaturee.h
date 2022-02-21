@@ -19,8 +19,5 @@ public:
 private:
 	int m_emptyLine;
 	vector<AnimationFramee> m_creatures;
-
-
-
 };
 

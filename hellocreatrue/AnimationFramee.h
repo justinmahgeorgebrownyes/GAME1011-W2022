@@ -9,26 +9,26 @@ class AnimationFramee
 private:
 	vector<string> m_lines;
 
-
-
 public:
-	void setLines(vector<string> lines) {
+	void setLines(vector<string> lines) 
+	{
 		this->m_lines = lines;
 	}
-	vector<string> getLines() {
+	vector<string> getLines() 
+	{
 		return m_lines;
 	}
-	string getLine(int i) {
+	string getLine(int i) 
+	{
 		return m_lines.at(i);
 	}
-	int size() {
+	int size() 
+	{
 		return m_lines.size();
 	}
 
 	AnimationFramee(){}
 
 	AnimationFramee(vector<string> lines);
-
-
 };
 
